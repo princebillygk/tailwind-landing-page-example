@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tailwind Landing Page</title>
+    <link rel="stylesheet" href="index.css" media="all" />
+  </head>
+  <body>
+    <nav class="relative container mx-auto p-6">
+      <!-- Logo -->
+      <div class="flex items-center justify-between">
+        <div class="pt-2">
+          <img src="./assets/images/logo.svg" alt="Manage" />
+        </div>
+
+        <!-- Menu -->
+        <div class="hidden md:flex space-x-6">
+          <a class="hover:text-darkGrayishBlue" href="#">Pricing</a>
+          <a class="hover:text-darkGrayishBlue" href="#">Product</a>
+          <a class="hover:text-darkGrayishBlue" href="#">About Us</a>
+          <a class="hover:text-darkGrayishBlue" href="#">Careers</a>
+          <a class="hover:text-darkGrayishBlue" href="#">Community</a>
+        </div>
+
+        <!-- Get Started Button -->
+        <a
+          href="#"
+          class="hidden md:block bg-brightRed text-white p-3 px-6 pt-2 rounded-full self-baseline hover:bg-brightRedLight"
+          >Get Started</a
+        >
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="banner">
+      <div
+        class="container items-center flex flex-col-reverse px-6 mx-auto mt-10 md:flex-row"
+      >
+        <!-- Left Item -->
+        <div class="flex flex-col mb-32 space-y-12 md:w-1/2">
+          <h1 class="max-w-sm text-4xl text-center md:text-left md:text-5xl">
+            Bring everyone together to build better products
+          </h1>
+          <p class="max-w-sm text-center text-darkGrayishBlue md:text-left">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <div class="flex justify-center md:justify-start">
+            <a
+              href="#"
+              class="inline-block bg-brightRed text-white p-3 px-6 pt-2 rounded-full self-baseline hover:bg-brightRedLight"
+              >Get Started</a
+            >
+          </div>
+        </div>
+
+        <!-- Right Item -->
+        <div class="flex justify-center items-center md:w-1/2">
+          <img src="./assets/images/illustration-intro.svg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature -->
+    <section id="feature">
+      <div
+        class="container mx-auto flex flex-col mt-10 items-start space-y-12 md:space-y-0 md:flex-row md:space-x-12"
+      >
+        <!-- Left Item -->
+        <div class="flex flex-col space-y-12 md:w-1/2">
+          <h1 class="max-w-md text-center text-4xl font-bold md:text-left">
+            What's different about Manager?
+          </h1>
+          <p class="max-w-sm text-center md:text-left text-darkGrayishBlue">
+            Manager provides all the functionality your team needs, without the
+            complexity. Our software is tailor made for modern digital product
+            teams.
+          </p>
+        </div>
+
+        <!-- Right Item -->
+        <div class="flex flex-col md:w-1/2 space-y-8">
+          <!-- List Item -->
+          <div class="flex flex-col md:flex-row md:space-x-2">
+            <div
+              class="flex space-x-2 rounded-l-full bg-brightRedSupLight md:bg-transparent md:items-start"
+            >
+              <div
+                class="bg-brightRed text-white px-4 py-2 pt-0.5 rounded-full"
+              >
+                01
+              </div>
+              <h3 class="text-base font-bold md:hidden">Sit hic dolore?</h3>
+            </div>
+
+            <div>
+              <h3 class="hidden text-lg font-bold mb-3 md:block">
+                Ipsum voluptas ea
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Dolor repudiandae nulla nam veniam reiciendis Dolor illo saepe
+                quam voluptate numquam, repellat consequuntur. Vero sequi fuga
+                atque delectus sunt
+              </p>
+            </div>
+          </div>
+
+          <!-- List Item -->
+          <div class="flex flex-col md:flex-row md:space-x-2">
+            <div
+              class="flex space-x-2 rounded-l-full bg-brightRedSupLight md:bg-transparent md:items-start"
+            >
+              <div
+                class="bg-brightRed text-white px-4 py-2 pt-0.5 rounded-full"
+              >
+                01
+              </div>
+              <h3 class="text-base font-bold md:hidden">Sit hic dolore?</h3>
+            </div>
+
+            <div>
+              <h3 class="hidden text-lg font-bold mb-3 md:block">
+                Ipsum voluptas ea
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Dolor repudiandae nulla nam veniam reiciendis Dolor illo saepe
+                quam voluptate numquam, repellat consequuntur. Vero sequi fuga
+                atque delectus sunt
+              </p>
+            </div>
+          </div>
+
+          <!-- List Item -->
+          <div class="flex flex-col md:flex-row md:space-x-2">
+            <div
+              class="flex space-x-2 rounded-l-full bg-brightRedSupLight md:bg-transparent md:items-start"
+            >
+              <div
+                class="bg-brightRed text-white px-4 py-2 pt-0.5 rounded-full"
+              >
+                01
+              </div>
+              <h3 class="text-base font-bold md:hidden">Sit hic dolore?</h3>
+            </div>
+
+            <div>
+              <h3 class="hidden text-lg font-bold mb-3 md:block">
+                Ipsum voluptas ea
+              </h3>
+              <p class="text-darkGrayishBlue">
+                Dolor repudiandae nulla nam veniam reiciendis Dolor illo saepe
+                quam voluptate numquam, repellat consequuntur. Vero sequi fuga
+                atque delectus sunt
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
